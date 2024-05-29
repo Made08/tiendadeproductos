@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Principal {
+public class Aplicacion {
     public static void main(String[] args) {
         Usuario usuario = new Usuario("Juan Perez");
         usuario.setCategoriaPreferida("Categoría 1");

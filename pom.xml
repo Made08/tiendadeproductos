@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>co.madelem</groupId>
+	<artifactId>tienda-app</artifactId>
+	<version>1.0.0</version>
+	<name>Sistemas de Tienda</name>
+	<packaging>jar</packaging>
+	<description>Proyecto Sistema de Tienda para Venta de Productos, por Madelem Chico</description>
+	<properties>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.build.timestamp.format>yyyy/MM/dd HH:mm</maven.build.timestamp.format>
+		<maven.encoding>UTF-8</maven.encoding>
+	</properties>
+</project>

@@ -1,5 +1,7 @@
 package co.madelem.tienda.patrones;
 
+import java.util.List;
+
 import co.madelem.tienda.dominio.Usuario;
 import co.madelem.tienda.dominio.Producto;
 

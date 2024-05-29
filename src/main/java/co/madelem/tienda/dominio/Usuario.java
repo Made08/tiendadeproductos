@@ -36,4 +36,12 @@ public class Usuario {
     public void agregarCompra(Producto producto) {
         historialCompras.add(producto);
     }
+
+    @Override
+    public String toString() {
+        return "Usuario [nombre=" + nombre + ", categoriaPreferida=" + categoriaPreferida + ", historialCompras="
+                + historialCompras + "]";
+    }
+
+    
 }

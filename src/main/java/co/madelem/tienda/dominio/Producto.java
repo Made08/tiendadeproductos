@@ -25,6 +25,13 @@ public class Producto {
         this.categoria = categoria;
     }
 
+    
+
+    @Override
+    public String toString() {
+        return "Producto [nombre=" + nombre + ", categoria=" + categoria + "]";
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;

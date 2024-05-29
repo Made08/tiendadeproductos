@@ -26,4 +26,11 @@ public class Compra {
     public void setFechaCompra(Date fechaCompra) {
         this.fechaCompra = fechaCompra;
     }
+
+    @Override
+    public String toString() {
+        return "Compra [producto=" + producto + ", fechaCompra=" + fechaCompra + "]";
+    }
+
+    
 }

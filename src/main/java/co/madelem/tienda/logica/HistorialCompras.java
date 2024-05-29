@@ -1,5 +1,10 @@
 package co.madelem.tienda.logica;
 
+import java.util.List;
+import java.util.ArrayList;
+
+import co.madelem.tienda.dominio.Compra;
+
 public class HistorialCompras {
     private static HistorialCompras instancia;
     private List<Compra> compras;
