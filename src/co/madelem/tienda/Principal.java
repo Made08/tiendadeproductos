@@ -8,6 +8,8 @@ import co.madelem.tienda.logica.RecomendadorHistorialCompras;
 import co.madelem.tienda.logica.RecomendadorPreferenciasUsuario;
 import co.madelem.tienda.logica.RecomendadorTendenciasMercado;
 
+import co.madelem.tienda.patrones.FachadaRecomendacion;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
