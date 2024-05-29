@@ -1,4 +1,4 @@
-package co.madelem.tienda.patrones;
+package co.madelem.tienda.logica;
 
 public class HistorialCompras {
     private static HistorialCompras instancia;
