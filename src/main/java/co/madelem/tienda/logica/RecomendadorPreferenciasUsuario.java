@@ -1,7 +1,7 @@
 package co.madelem.tienda.logica; 
 
 import java.util.List;
-import java.util.Collectors;
+import java.util.stream.Collector;
 
 import co.madelem.tienda.dominio.Usuario;
 import co.madelem.tienda.dominio.Producto;

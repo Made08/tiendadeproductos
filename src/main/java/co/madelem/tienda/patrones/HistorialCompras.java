@@ -11,6 +11,7 @@ public class HistorialCompras {
 
     private HistorialCompras() {
         this.compras = new ArrayList<>();
+        System.out.println("Patrón Singleton (Singleton Pattern)");
     }
 
     public static synchronized HistorialCompras getInstance() {
