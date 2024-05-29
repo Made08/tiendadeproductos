@@ -11,6 +11,7 @@ public class Usuario {
     public Usuario(String nombre) {
         this.nombre = nombre;
         this.historialCompras = new ArrayList<>();
+        System.out.println(toString());
     }
 
     public String getNombre() {
