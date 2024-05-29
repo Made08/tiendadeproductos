@@ -25,23 +25,39 @@ public class Producto {
         this.categoria = categoria;
     }
 
-    
-
     @Override
     public String toString() {
         return "Producto [nombre=" + nombre + ", categoria=" + categoria + "]";
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Producto producto = (Producto) obj;
-        return nombre.equals(producto.nombre) && categoria.equals(producto.categoria);
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
+        result = prime * result + ((categoria == null) ? 0 : categoria.hashCode());
+        return result;
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(nombre, categoria);
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Producto other = (Producto) obj;
+        if (nombre == null) {
+            if (other.nombre != null)
+                return false;
+        } else if (!nombre.equals(other.nombre))
+            return false;
+        if (categoria == null) {
+            if (other.categoria != null)
+                return false;
+        } else if (!categoria.equals(other.categoria))
+            return false;
+        return true;
     }
 }
